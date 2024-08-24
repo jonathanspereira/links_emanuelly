@@ -1,3 +1,19 @@
+
 {
-  "public": true
+
+  "static": {
+    "public": true,
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/$1" }
+    ]
+  },
+
+  "public": true,
+  
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ]
 }
