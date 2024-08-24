@@ -4,8 +4,7 @@
 }
 
 html, body{
-    background: rgb(193,32,90);
-    background: linear-gradient(100deg, rgba(193,32,90,1) 11%, rgb(232, 98, 69) 72%);
+    background: linear-gradient(105deg,#dc004634 31%, rgb(255, 255, 255) 99%);
     width: 100%;
     display: flex;
     flex-direction: column;

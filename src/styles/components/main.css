@@ -13,7 +13,6 @@
     margin-top: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px #000;
-
 }
 
 
@@ -21,23 +20,22 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .container-description h1{
     font-size: 2.5rem;
-    color: #fff;
+    color: #e80049;
     text-align: center;
-    text-shadow: 0px 0px 10px 0px #C41D5B;
-
+    font-weight: bold;
 }
 
 .container-description h2{
     font-size: 1.5rem;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
+
 
 }
 
@@ -49,8 +47,15 @@
 .container-description h3{
     font-size: 1.5rem;
     text-align: center;
-    color: #eec49b;
-    text-shadow: 0px 0px 10px 0px #C41D5B;
+    color: #e80049;
+}
+
+
+.container-description p{
+    color: #e80049;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .container-links{
@@ -71,7 +76,8 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #C41D5B;
+    color: #e80049;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.597);
     font-weight: bold;
     font-size: 1.7rem;
     transition: 0.3s;
@@ -79,11 +85,11 @@
 
 
 .links:hover{
-    background-color: #C41D5B;
+    background-color: #e80049;
     color: #fff;
-    box-shadow: 0px 0px 10px 0px #C41D5B;
     cursor: pointer;    
-    transition: 0.5s;
+    transform: scale(1.2); /* Scales width by 2 and height by 0.5 */
+
 }
 
 .container-social{
@@ -96,6 +102,7 @@
 .container-social img:hover{
     cursor: pointer;    
     transform: scale(1.2); /* Scales width by 2 and height by 0.5 */
+    transition: 0.3s;
 }
 
 
@@ -104,6 +111,7 @@
     width: 50px;
     height: 50px;
     background-color: #fff;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.597);
     border-radius: 16px;
     padding: 10px;
 
@@ -112,6 +120,12 @@
 .container-maps{
     display: flex;
     flex-direction: column;
+}
+
+.container-maps h1{
+    color: #e80049;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .container-map{
@@ -132,16 +146,16 @@
 iframe{
     border-radius: 16px;
     margin: 20px;
-
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.597);
 }
 
 footer{
-    color: rgba(255, 255, 255, 0.579);
+    color: #e80049;
     margin-bottom: 10px;
 }
 
 footer a{
     text-decoration: none;
-    color: #000;
+    color: #e80049;
     font-weight: bold;
 }
