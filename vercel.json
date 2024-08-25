@@ -7,6 +7,13 @@
     {
       "src": "index.html",
       "use": "@vercel/static"
+    },
+
+    {
+      "src": "index.css",
+      "use": "@vercel/static"
     }
+
+    
   ]
 }
